@@ -8,7 +8,7 @@ const mysqlDb = {
             host: 'localhost',
             user: 'root',
             database: 'office_inventory',
-            password: 'Alina0303'
+            password: process.env.PASSWORD_MYSQL || '',
         });
     },
 
